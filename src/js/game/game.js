@@ -1,8 +1,8 @@
 export default class Goblin {
   randomMoving() {
     const goblinImg = document.createElement("img");
+    goblinImg.src = 'https://raw.githubusercontent.com/netology-code/ahj-homeworks/video/dom/pic/goblin.png';
     goblinImg.classList.add("game_item_img");
-    goblinImg.src = "img/goblin.png";
 
     const itemsCollection = document.querySelectorAll(".game_item");
 
